@@ -26,7 +26,7 @@ if (!canvas) {
   // my swiftie mind gets WTF where type annotation, or Observability macro, or even an empty variable
 
   loader.load(
-    "toilet.glb",
+    "/toilet.glb",
     function (gltf) {
       toiletModel = gltf.scene;
       // ok load this shit
